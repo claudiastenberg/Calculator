@@ -1,0 +1,56 @@
+.calculator {
+    margin-top: 2em;
+    display: block;
+    border-radius: 20px;
+    background-color: rgba(44, 19, 34, 0.938);
+    overflow: hidden;
+}
+
+.calculator-display {
+    display: inline-block;
+    background-color: #ccc;
+    height: 3em;
+    width: 100%;
+
+    /*cntrera text*/
+    text-align: center;
+    line-height: 3em;
+
+    /*buggfix för text som tas fram i en tom ruta, utan denna så kommer 
+    storleken på displayen att ändras när siffrorna dyker upp*/
+    vertical-align: top;
+
+}
+
+.calculator-body{
+    margin-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    height: 298px;
+}
+
+.card{
+    width: 30%;
+    display: block;
+    background-color: rgba(209, 155, 187, 0.938);
+}
+
+.number-button, .sign-button{
+    width: 30%;
+    height: 3em;
+    border-radius: 20px;
+    box-shadow: 0 9px #999;
+}
+
+.result {
+    background-color: rgba(44, 19, 34, 0.938);
+    min-height: 100px;
+    border-radius: 15px;
+
+}
+
+.result > h2 {
+    padding: 1em;
+    font-weight: bold;
+    color: black;
+}

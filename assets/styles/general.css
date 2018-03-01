@@ -1,0 +1,20 @@
+@import url("reset.css");
+
+body > :not(header):not(nav):not(footer) {
+    margin: 0 5% 0 5%;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(61, 7, 105),rgba(46, 19, 61, 0.863));
+    color: rgb(31, 27, 27);
+    width: 70%;
+    /*min-height: 500px;*/ 
+}
+
+body > header {
+    font-size: 2rem; /*rem alltid vid textstorlek*/
+    font-weight: bold;
+    padding: 1em;
+    color: black;
+
+}
